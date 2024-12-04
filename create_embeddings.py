@@ -10,9 +10,9 @@ import openaiapikeyPv as apiKeyy
 openai.api_key = apiKeyy.provideApiKey()
 
 # Paths
-DATASET_PATH = r"C:\Users\Pranav\Desktop\finalLLMModel\dataset\iphone.csv"  # Input dataset
-EMBEDDINGS_PATH = r"C:\Users\Pranav\Desktop\finalLLMModel\dataset\iphone_sales_data_with_embeddings.csv"  # Output embeddings file
-INDEX_PATH = r"C:\Users\Pranav\Desktop\finalLLMModel\dataset\iphone_sales_index.index"  # Output FAISS index file
+DATASET_PATH = r"iphone.csv"  # Input dataset
+EMBEDDINGS_PATH = r"iphone_sales_data_with_embeddings.csv"  # Output embeddings file
+INDEX_PATH = r"iphone_sales_index.index"  # Output FAISS index file
 
 # Load dataset
 print("Loading dataset...")
